@@ -55,7 +55,7 @@ $(function() {
 //starting typing animation
 var string = [
   "A Web Developer and Information Systems Analyst, I believe in technology and try to change manual work methods to electronic ones to make the work easier, more efficient and creative for the companies employees.",
-  `hello I'm`,
+  `Hello I'm`,
   "Taghreed Nageeb"
 ];
 var array = string[1].split("");
@@ -85,7 +85,7 @@ function frameLooper3() {
   } else {
     clearTimeout(timer);
   }
-  loopTimer = setTimeout("frameLooper3()", 70); /* change 70 for speed */
+  loopTimer = setTimeout("frameLooper3()", 80); /* change 70 for speed */
 }
 setTimeout("frameLooper()", 1000);
 setTimeout("frameLooper2()", 2000);
