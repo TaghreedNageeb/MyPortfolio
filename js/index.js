@@ -56,7 +56,7 @@ $(function() {
 var string = [
   "A Web Developer and Information Systems Analyst, I believe in technology and try to change manual work methods to electronic ones to make the work easier, more efficient and creative for the companies employees.",
   `Hello I'm`,
-  "Taghreed Nageeb"
+  "Taghreed Najib"
 ];
 var array = string[1].split("");
 var array2 = string[2].split("");
